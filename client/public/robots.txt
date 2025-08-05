@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://급여계산기.com/sitemap.xml
