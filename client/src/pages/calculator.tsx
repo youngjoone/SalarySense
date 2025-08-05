@@ -153,8 +153,22 @@ export default function CalculatorPage() {
         </section>
       </main>
 
+      {/* Disclaimer */}
+      <div className="mt-16 bg-yellow-50 border-l-4 border-yellow-400 p-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex">
+            <div className="ml-3">
+              <p className="text-sm text-yellow-700">
+                <strong>안내사항:</strong> 본 계산 결과는 참고용이며, 실제 지급되는 금액과 차이가 있을 수 있습니다. 
+                정확한 금액은 소속 회사의 급여 담당자나 세무 전문가에게 문의하시기 바랍니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12 mt-16">
+      <footer className="bg-gray-900 text-white py-12 mt-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-2">
